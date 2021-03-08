@@ -1,29 +1,30 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "soupery",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Krillo's Soupery",
+  "description": "A mod that adds over 30 new unique soups and stews that can give special effects not found in vanilla",
   "authors": [
-    "Me!"
+    "Krillo",
+    "SwanX1"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://cernavskis.dev/soupery.html",
+    "sources": "https://github.com/SwanX1/krillos-soup-mod"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "Unlicense",
+  "icon": "assets/soupery/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "dev.cernavskis.soupery.KrillosSoupery"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "soupery.mixins.json"
   ],
 
   "depends": {
