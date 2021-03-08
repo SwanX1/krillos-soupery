@@ -1,5 +1,6 @@
 package dev.cernavskis.soupery;
 
+import dev.cernavskis.soupery.init.KSEffects;
 import net.fabricmc.api.ModInitializer;
 
 public class KrillosSoupery implements ModInitializer {
@@ -7,6 +8,7 @@ public class KrillosSoupery implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		KSEffects.registerEffects();
 		System.out.println("Initialized Krillo's Soupery!");
 	}
 }
